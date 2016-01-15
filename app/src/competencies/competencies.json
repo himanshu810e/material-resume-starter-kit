@@ -1,0 +1,89 @@
+[
+	{
+		name : "Java",
+		size : "size1"
+	},
+	{
+		name : "JSF",
+		size : "size1"
+	},
+	{
+		name : "HTML5",
+		size : "size1"
+	},
+	{
+		name : "AngularJS",
+		size : "size2"
+	},
+	{
+		name : "Angular Material",
+		size : "size2"
+	},
+	{
+		name : "Mongo DB",
+		size : "size3"
+	},
+		{
+		name : "MEAN Stack",
+		size : "size3"
+	},
+	{
+		name : "Express",
+		size : "size1"
+	},	{
+		name : "Weblogic",
+		size : "size2"
+	},
+	{
+		name : "Node js",
+		size : "size2"
+	},
+	{
+		name : "Mongoose",
+		size : "size3"
+	},
+	{
+		name : "Cloud",
+		size : "size2"
+	},
+	{
+		name : "FAAS",
+		size : "size2"
+	},
+	{
+		name : "Git",
+		size : "size2"
+	},
+	{
+		name : "Require js",
+		size : "size3"
+	},
+	{
+		name : "SVN",
+		size : "size3"
+	},
+	{
+		name : "Rest",
+		size : "size1"
+	},
+	{
+		name : "Microservices",
+		size : "size1"
+	},
+	{
+		name : "Jersey",
+		size : "size2"
+	},
+	{
+		name : "Cordova",
+		size : "size3"
+	},
+	{
+		name : "Hybrid",
+		size : "size3"
+	},
+	{
+		name : "Java",
+		size : "size1"
+	}
+]
