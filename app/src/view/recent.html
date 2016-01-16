@@ -1,0 +1,28 @@
+<md-content flex id="content">
+	<h2>{{layout.selected.name}}</h2>
+	<p>{{layout.selected.content}}</p>
+	<md-input-container class="md-block" flex-gt-sm>
+		<label>Looking for specific skill? Please enter here.</label><input ng-model="query" />
+	<md-input-container />
+		
+	
+	<div ng-controller="RecentWorkController as recentWorkController">
+		<div layout="row"  ng-repeat="recentWork in recentWorkController.recentWorkItems | filter:query" layout-wrap layout-align="start">
+			
+			<h2>{{recentWork.name}}</h2>
+			<div layout="row" layout-padding layout-wrap layout-fill layout-align="end" ng-cloak>
+				<span layout style="font-style: italic;">Status : {{recentWork.status}}</span>
+			</div>
+			<p><b>Description: </b>{{recentWork.description}}</p>
+			<a href="{{recentWork.link}}">{{recentWork.link}}</a>
+			<div layout="row" layout-padding layout-wrap layout-fill ng-cloak>
+				<md-whiteframe style="margin: 2px;" ng-repeat="technology in recentWork.technologies.split(',')" class="md-whiteframe-1dp" layout layout-align="center center">
+					<span style="font-size: 0.9230769230769231rem">{{technology.trim()}}</span>
+				</md-whiteframe>
+			</div>
+		</div>
+		</div>
+	</div>
+
+	
+</md-content>
